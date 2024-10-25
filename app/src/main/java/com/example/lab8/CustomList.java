@@ -12,7 +12,7 @@ import androidx.annotation.Nullable;
 
 import java.util.ArrayList;
 
-import missing.namespace.R;
+//import missing.namespace.R;
 
 public class CustomList extends ArrayAdapter<City> {
 
