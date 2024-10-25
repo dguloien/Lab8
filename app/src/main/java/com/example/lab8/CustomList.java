@@ -12,6 +12,8 @@ import androidx.annotation.Nullable;
 
 import java.util.ArrayList;
 
+import missing.namespace.R;
+
 public class CustomList extends ArrayAdapter<City> {
 
     private ArrayList<City> cities;
@@ -49,8 +51,13 @@ public class CustomList extends ArrayAdapter<City> {
         return cities.size();
     }
 
+    /**
+     * this adds a city object to the list
+     *the second phase, you can add the
+     city * @param city
+     */
     public void addCity(City city){
-
+        cities.add(city);
     }
 
 }
